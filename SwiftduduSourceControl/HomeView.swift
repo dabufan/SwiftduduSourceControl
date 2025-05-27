@@ -25,11 +25,11 @@ struct HomeView: View {
                     .cornerRadius(10)
                     .foregroundColor(Color.red)
                 
-            
+                
+            }
         }
     }
 }
-
 #Preview {
     HomeView()
 }
