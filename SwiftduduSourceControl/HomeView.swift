@@ -10,7 +10,6 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         VStack {
-            
             Image(systemName: "person")
                 .font(.largeTitle)
                 .foregroundColor(Color.blue)
@@ -19,6 +18,8 @@ struct HomeView: View {
                 Rectangle()
                     .frame(width: 200, height: 150)
                     .cornerRadius(10)
+                Text("Some New Title!")
+
                 
                 Rectangle()
                     .frame(width: 200, height: 150)
