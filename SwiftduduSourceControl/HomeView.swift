@@ -9,7 +9,10 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Screen 2!")
+        HStack {
+            Text("Screen 2!")
+            Image(systemName: "person")
+        }
     }
 }
 
