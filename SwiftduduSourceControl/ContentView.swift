@@ -24,6 +24,14 @@ struct ContentView: View {
                     .frame(height: 55)
                     .frame(maxWidth: .infinity)
             }
+            Rectangle()
+                .frame(width: 200, height: 150)
+                .cornerRadius(10)
+                .foregroundColor(Color.red)
+            Rectangle()
+                .frame(width: 200, height: 150)
+                .cornerRadius(10)
+                .foregroundColor(Color.blue)
 
         }
         .padding()
