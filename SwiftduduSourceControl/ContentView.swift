@@ -18,7 +18,7 @@ struct ContentView: View {
             Button {
                 
             } label: {
-                Text("Click me there")
+                Text("Click me here")
                     .background(Color.white)
                     .shadow(radius: 5)
                     .frame(height: 55)
