@@ -18,7 +18,7 @@ struct ContentView: View {
             Button {
                 
             } label: {
-                Text("Click me here")
+                Text("Click me there")
             }
 
         }
