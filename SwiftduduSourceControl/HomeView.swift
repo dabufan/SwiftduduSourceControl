@@ -9,9 +9,13 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        HStack {
-            Text("Screen 2!")
+        VStack {
+            
             Image(systemName: "person")
+                .font(.largeTitle)
+                .foregroundColor(Color.blue)
+            Text("Screen 2!")
+            
         }
     }
 }
