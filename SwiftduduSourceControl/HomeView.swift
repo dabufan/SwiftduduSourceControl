@@ -24,8 +24,15 @@ struct HomeView: View {
                     .frame(width: 200, height: 150)
                     .cornerRadius(10)
                     .foregroundColor(Color.red)
-                
-                
+                Circle()
+                    .frame(width: 80, height: 80)
+                    .overlay {
+                        Image(systemName: "book")
+                            .font(.largeTitle)
+                            .bold()
+                            .foregroundColor(Color.white)
+                        
+                    }
             }
         }
     }
