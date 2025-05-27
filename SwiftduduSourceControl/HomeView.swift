@@ -27,7 +27,7 @@ struct HomeView: View {
                 Circle()
                     .frame(width: 80, height: 80)
                     .overlay {
-                        Image(systemName: "book")
+                        Image(systemName: "cloud")
                             .font(.largeTitle)
                             .bold()
                             .foregroundColor(Color.white)
