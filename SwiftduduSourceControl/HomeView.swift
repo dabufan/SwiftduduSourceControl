@@ -31,6 +31,9 @@ struct HomeView: View {
                             .font(.largeTitle)
                             .bold()
                             .foregroundColor(Color.white)
+                            .onTapGesture {
+                                
+                            }
                         
                     }
             }
