@@ -15,6 +15,11 @@ struct HomeView: View {
                 .font(.largeTitle)
                 .foregroundColor(Color.blue)
             Text("Screen 2!")
+            ZStack {
+                Rectangle()
+                    .frame(width: 200, height: 150)
+                    .cornerRadius(10)
+            }
             
         }
     }
