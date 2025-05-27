@@ -19,6 +19,10 @@ struct ContentView: View {
                 
             } label: {
                 Text("Click me there")
+                    .background(Color.white)
+                    .shadow(radius: 5)
+                    .frame(height: 55)
+                    .frame(maxWidth: .infinity)
             }
 
         }
