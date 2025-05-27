@@ -14,12 +14,17 @@ struct HomeView: View {
             Image(systemName: "person")
                 .font(.largeTitle)
                 .foregroundColor(Color.blue)
-            Text("Screen 45!")
-            ZStack {
+            Text("Screen 2!")
+            VStack {
                 Rectangle()
                     .frame(width: 200, height: 150)
                     .cornerRadius(10)
-            }
+                
+                Rectangle()
+                    .frame(width: 200, height: 150)
+                    .cornerRadius(10)
+                    .foregroundColor(Color.red)
+                
             
         }
     }
