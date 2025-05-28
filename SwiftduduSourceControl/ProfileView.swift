@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProfileView: View {
-    @State var isPremiuml: Bool = false
+    @State var isPremiuml: Bool = true
     var body: some View {
         Text("Nick")
             .onAppear {
