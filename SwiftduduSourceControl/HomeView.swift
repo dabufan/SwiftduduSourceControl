@@ -13,7 +13,7 @@ struct HomeView: View {
             Image(systemName: "person")
                 .font(.largeTitle)
                 .foregroundColor(Color.blue)
-            Text("Screen 2!")
+            Text("Screen one!")
             VStack {
                 Rectangle()
                     .frame(width: 200, height: 150)
