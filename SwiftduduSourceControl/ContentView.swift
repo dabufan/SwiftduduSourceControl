@@ -19,7 +19,7 @@ struct ContentView: View {
             Button {
                 
             } label: {
-                Text("Check me ！！")
+                Text("Check me here ！！")
                 
                     .padding()
                     .background(Color.white)
